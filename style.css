@@ -8,15 +8,13 @@ body {
 }
 
 .column {
-  float: left;
+  display: inline-block;
   width: 33.33%;
   padding: 10px;
 }
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+.row {
+  text-align: center;
 }
 
 div {
@@ -33,5 +31,3 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
-```
