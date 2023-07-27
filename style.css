@@ -5,7 +5,7 @@
 
     div {
       font-family: 'Neue Montreal', sans-serif;
-      font-size: 72px;
+      font-size: 50px;
     }
 
     div {
@@ -17,4 +17,3 @@ div:hover {
     background-color: linear-gradient(to bottom right, #00ffff, #ff00ff);
     }
 
-    
