@@ -7,10 +7,22 @@ body {
   background-color: #F8F6F2;
 }
 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 div {
   font-family: 'Neue Montreal', sans-serif;
   font-size: 50px;
-  margin: 10% 50% 0 10%;
+  margin: 30% 50% 0 30%;
 }
 
 a {
@@ -21,3 +33,5 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+```
