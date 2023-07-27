@@ -11,6 +11,7 @@ body {
   display: inline-block;
   width: 33.33%;
   padding: 10px;
+  margin: 3% 0 0 3%;
 }
 
 .row {
@@ -19,8 +20,7 @@ body {
 
 div {
   font-family: 'Neue Montreal', sans-serif;
-  font-size: 50px;
-  margin: 10% 10% 0 10%;
+  font-size: 35px;
 }
 
 a {
