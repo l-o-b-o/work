@@ -1,0 +1,9 @@
+@font-face {
+      font-family: 'Neue Montreal';
+      src: url('font/NeueMontreal-Medium.woff') format('woff');
+    }
+
+    div {
+      font-family: 'Neue Montreal', sans-serif;
+      font-size: 12px;
+    }
