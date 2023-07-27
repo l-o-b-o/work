@@ -18,13 +18,13 @@ body {
 }
 
 .row {
-  text-align: center;
+  text-align: left;
+  max-width: 100%;
 }
 
 div {
   font-family: 'Neue Montreal', sans-serif;
   font-size: 3vw;
-  margin: 0% 0% 0% 0%;
   line-height: 1.1;
 }
 
@@ -36,3 +36,4 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
