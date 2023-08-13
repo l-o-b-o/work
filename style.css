@@ -1,50 +1,62 @@
 @font-face {
-font-family: "Neue Montreal";
-src: url("font/NeueMontreal-Medium.woff") format("woff");
+  font-family: "Neue Montreal";
+  src: url("font/NeueMontreal-Medium.woff") format("woff");
 }
+
 body {
-background-color: white;
+  background-color: #f7f5f2;
 }
+
 .container {
-display: flex;
-flex-wrap: wrap;
-margin: 1vw 0 0 1vw;
-vertical-align: top;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5vw 0 0 2vw;
+  vertical-align: top;
 }
+
 .column1 {
-flex: 1 1 33%;
-text-align: left;
-vertical-align: top;
-text-align: left;
-vertical-align: top;
+  flex: 1 1 33%;
+  text-align: left;
+  vertical-align: top;
+  text-align: left;
+  vertical-align: top;
 }
+
 .column2 {
-flex: 1 1 33%;
-text-align: left;
-vertical-align: top;
-text-align: left;
-vertical-align: top;
+  flex: 1 1 33%;
+  text-align: left;
+  vertical-align: top;
+  text-align: left;
+  vertical-align: top;
 }
+
 .column3 {
-flex: 1 1 33%;
-text-align: left;
-vertical-align: top;
-text-align: left;
-vertical-align: top;
+  flex: 1 1 33%;
+  text-align: left;
+  vertical-align: top;
+  text-align: left;
+  vertical-align: top;
 }
+
 div {
-font-family: "Neue Montreal", sans-serif;
-font-size: 3vw;
-line-height: 1;
-color: #ff0000;
+  font-family: "Neue Montreal", sans-serif;
+  font-size: 3vw;
+  line-height: 1;
+  color: #ff0000;
 }
+
 p {
-margin: 0 0 0 0;
+  margin: 0 0 0 0;
+  color: white;
+}
+
+p:hover {
+  color: black;
 }
 a {
-color: #ff0000;
-text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 a:hover {
-text-decoration: underline;
+  color: black;
 }
